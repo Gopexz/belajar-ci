@@ -52,17 +52,14 @@ class Product_model extends CI_Model
         $this->name = $post["name"];
         $this->price = $post["price"];
         $this->description = $post["description"];
-        $this->db->update($this->_table, $this, array('product_id'=> $post['id']));
-
+        
         if (!empty($_FILES["image"]["name"])) {
             $this->image = $this->_uploadImage();
         } else {
             $this->image = $post["old_image"];
         }
-    }
-    public function delete($id)
-    {
-        return $this->db->delete($this->_table,array("product_id"=> $id));
+        $this->db->update($this->_table, $this, array('product_id'=> $post['id']));
+
     }
     private function _uploadImage()
     {
@@ -81,4 +78,10 @@ class Product_model extends CI_Model
     }
     return "default.jpg";
     }
+
+    public function delete($id)
+    {
+        return $this->db->delete($this->_table,array("product_id"=> $id));
+    }
+    
 }

@@ -29,6 +29,7 @@
 							<table class="table table-hover" id="dataTable" width="100%" cellspacing="0">
 								<thead>
 									<tr>
+										<th>No</th>
 										<th>ID</th>
 										<th>Name</th>
 										<th>Price</th>
@@ -38,8 +39,12 @@
 									</tr>
 								</thead>
 								<tbody>
+								<?php $i=1; ?>
 									<?php foreach ($products as $product): ?>
 									<tr>
+										<td>
+											<?php echo $i++; ?>
+										</td>
 										<td>
 											<?php echo $product->product_id ?>
 										</td>
