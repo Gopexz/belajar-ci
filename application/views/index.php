@@ -62,8 +62,8 @@
             </li>
             <li>
               <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-              <a href='#loginModal' data-toggle="modal" >Login</a><span>/</span>
-              <a href='#createAccount' data-toggle="modal">  Register</a>
+              <a href='<?php echo base_url('user/login_view'); ?>' data-toggle="modal" >Login</a><span>/</span>
+              <a href='<?php echo base_url('user/'); ?>' data-toggle="modal">  Register</a>
             </li>
           </ul>
         </div>
@@ -911,20 +911,28 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       </div>
       <div class="panel-body">
-        <form action="#" method="POST" role="form">
+        <form action="<?php echo base_url('user/register_user'); ?>" name="form1" method="POST" role="form">
           <div class="form-group formField">
             <i class="fa fa-user" aria-hidden="true"></i>
-            <input type="text" class="form-control" placeholder="Full Name">
+            <input type="text" name="user_name" class="form-control" placeholder="Full Name">
           </div>
           <div class="form-group formField">
             <i class="fa fa-envelope" aria-hidden="true"></i>
-            <input type="text" class="form-control" placeholder="Email">
+            <input type="text" name="user_email" class="form-control" placeholder="Email">
           </div>
           <div class="form-group formField">
             <i class="fa fa-lock" aria-hidden="true"></i>
-            <input type="password" class="form-control" placeholder="Password">
+            <input type="password" name="user_password" class="form-control" placeholder="Password">
           </div>
-          <button type="submit" class="btn btn-block commonBtn">Log in</button>
+          <div class="form-group formField">
+            <i class="fa fa-number" aria-hidden="true"></i>
+            <input type="number" name="user_age" class="form-control" placeholder="Age">
+          </div>
+          <div class="form-group formField">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <input type="number" name="user_mobile" class="form-control" placeholder="Mobile No">
+          </div>
+          <button type="submit" name="submit" class="btn btn-block commonBtn">Daftar</button>
           <div class="form-group">
             <div class="checkbox">
               <label>
