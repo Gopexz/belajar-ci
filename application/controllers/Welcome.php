@@ -28,4 +28,7 @@ class Welcome extends CI_Controller {
 	public function content(){
 		$this->load->view('contentt');
 	}
+	public function daftarmobil(){
+		$this->load->view('daftar_mobil.php');
+	}
 }
