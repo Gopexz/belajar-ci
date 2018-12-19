@@ -41,173 +41,7 @@
   <div class="main_wrapper">
 
     <!-- HEADER -->
-    <header class="header-wrapper header-v2">
-      <div class="topbar clearfix">
-        <div class="container">
-          <ul class="topbar-left">
-            <li class="phoneNo"><i class="fa fa-phone"></i>0123 45678910</li>
-            <li class="email-id hidden-xs hidden-sm"><i class="fa fa-envelope"></i>
-              <a href="mailto:cs@yourdomain.com">info@yourdomain.com</a>
-            </li>
-          </ul>
-          <ul class="topbar-right">
-            <li class="LanguageList"><i class="fa fa-globe" aria-hidden="true"></i>
-              <select name="guiest_id3" id="guiest_id3" class="select-drop">
-                <option value="0"> Language</option>
-                <option value="1">English</option>
-                <option value="2">Spanish</option>
-                <option value="3">Russian</option>
-                <option value="4">German</option>
-              </select>
-            </li>
-            <li>
-              <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-              <a href='<?php echo base_url('user/login_view'); ?>' data-toggle="modal" >Login</a><span>/</span>
-              <a href='<?php echo base_url('user/'); ?>' data-toggle="modal">  Register</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="header clearfix">
-        <nav class="navbar navbar-main navbar-default">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12">
-                <div class="header_inner">
-
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand logo clearfix" href=""><img src="img/home/carlogo.jpg" alt="" class="img-responsive" /></a>
-                  </div>
-
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="collapse navbar-collapse" id="main-nav">
-                    <ul class="nav navbar-nav navbar-right">
-                      <li><a href="index.html">Home</a></li>
-                      <li class=" dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Daftar Mobil</a>
-                        <ul class="dropdown-menu">
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses Grid Version1</a>
-                            <ul class="dropdown-menu">
-                              <li><a href="course-grid-3col.html">3 Columns</a></li>
-                              <li><a href="course-grid-4col.html">4 Columns</a></li>
-                              <li><a href="course-grid-sidebar-right.html">Sidebar Right</a></li>
-                              <li><a href="course-grid-sidebar-left.html">Sidebar Left</a></li>
-                            </ul>
-                          </li>
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses Grid Version2</a>
-                            <ul class="dropdown-menu">
-                              <li><a href="course-grid-version2-4col.html">4 Columns</a></li>
-                              <li><a href="course-grid-version2-3col.html">3 Columns</a></li>
-                              <li><a href="course-version2-right-sidebar.html">Sidebar Right</a></li>
-                              <li><a href="course-version2-left-sidebar.html">Sidebar Left</a></li>
-                            </ul>
-                          </li>
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses List View</a>
-                            <ul  class="dropdown-menu">
-                              <li><a href="course-right-sidebar.html">Sidebar Right</a></li>
-                              <li><a href="course-left-sidebar.html">Sidebar Left</a></li>
-                              <li><a href="course-fullwidth.html">Fullwidth</a></li>
-                            </ul>
-                          </li>
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Single Course</a>
-                            <ul class="dropdown-menu">
-                              <li><a href="single-course-right-sidebar.html">Sidebar Right</a></li>
-                              <li><a href="single-course-left-sidebar.html">Sidebar Left</a></li>
-                              <li><a href="single-course-fullwidth.html">Fullwidth</a></li>
-                            </ul>
-                          </li>
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Buy Course</a>
-                            <ul class="dropdown-menu">
-                              <li><a href="cart.html">Cart</a></li>
-                              <li><a href="checkout.html">Checkout</a></li>
-                              <li><a href="confirmation.html">Confirmation </a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class=" dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lokasi Cab. Rental</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="about.html">About College</a></li>
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photo Gallery</a>
-                            <ul class="dropdown-menu">
-                              <li><a href="photo-gallery3col.html">Gallery 3 Columns</a></li>
-                              <li><a href="photo-gallery4col.html">Gallery 4 Columns</a></li>
-                            </ul>
-                          </li>
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apply Now</a>
-                            <ul class="dropdown-menu">
-                              <li><a href="buying-steps.html">Apply For Addmission</a></li>
-                              <li><a href="buying-confirmation.html">Confirmation</a></li>
-                            </ul>
-                          </li>
-                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prices Table</a>
-                            <ul class="dropdown-menu">
-                              <li><a href="price-table-3col.html">Prices 3 column</a></li>
-                              <li><a href="price-table-4col.html">Prices 4 column</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="campus.html">Our Campus</a></li>
-                          <li><a href="stuff.html">Stuff</a></li>
-                          <li><a href="international_students.html">International Students</a></li>
-                          <li><a href="contact-us.html">Contact Us</a></li>
-                          <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                          <li><a href="404-error.html">404 Not Found</a></li>
-                          <li><a href="coming-soon-dark.html" target="_blank">Coming Soon</a></li>
-                        </ul>
-                      </li>
-                      <li class=" dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="blog-right-sidebar.html">Blog Sidebar Right</a></li>
-                          <li><a href="blog-left-sidebar.html">Blog Sidebar Left</a></li>
-                          <li><a href="single-post-right-sidebar.html">Single Post Sidebar Right</a></li>
-                          <li><a href="single-post-left-sidebar.html">Single Post Sidebar Left</a></li>
-                        </ul>
-                      </li>
-                      <li class=" dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">=</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="events-3col.html">Events 3 Columns</a></li>
-                          <li><a href="events-right-sidebar.html">Events Sidebar Right</a></li>
-                          <li><a href="events-left-sidebar.html">Events Sidebar Left</a></li>
-                          <li><a href="single-events.html">Single Event</a></li>
-                          <li><a href="events-calendar.html">Events Callender</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div> 
-
-                  <div class="cart-dropdown">
-                    <a href="cart.html" class="shop-cart">
-                      <i class="fa fa-shopping-cart"></i>
-                      <span class="badge">3</span>
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div><!-- /.container -->
-        </nav><!-- navbar -->
-      </div>
-    </header>
+    <?php $this->load->view("admin/_partials/header.php") ?>
 
 
     <!-- BANNER -->
@@ -551,7 +385,7 @@
             </div>
           </div>
           <div class="btnArea text-center">
-            <a href="" class="btn btn-default commonBtn">View more</a>
+            <a href="<?php echo base_url('daftarmobil')?>" class="btn btn-default commonBtn">View more</a>
           </div>
         </div>
 
@@ -690,56 +524,6 @@
       </div>
     </section>
 
-     <!-- LIGHT SECTION -->
-    <section class="clearfix padding feature-section">
-      <div class="container">
-
-        <div class="sectionTitle text-center">
-          <h3>Why Royal Course?</h3>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-3 col-xs-6 text-center">
-            <div class="feature-box">
-              <span><i class="fa fa-firefox" aria-hidden="true"></i></span>
-              <h3>Learn Anything Online</h3>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-xs-6 text-center">
-            <div class="feature-box">
-              <span><i class="fa fa-desktop" aria-hidden="true"></i></span>
-              <h3>Learn On Any Device</h3>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-xs-6 text-center">
-            <div class="feature-box">
-              <span><i class="fa fa-id-badge" aria-hidden="true"></i></span>
-              <h3>Cartification Courses</h3>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-xs-6 text-center">
-            <div class="feature-box">
-              <span><i class="fa fa-headphones" aria-hidden="true"></i></span>
-              <h3>24/7 Support</h3>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="btnArea text-center">
-          <a href="" class="btn btn-default commonBtn">All Categories</a>
-          <a href="" class="btn btn-default commonBtn secondaryBtn">View more</a>
-        </div>
-
-      </div>
-    </section>
-
     <!-- SUCCESS SECTION -->
     <section class="clearfix padding success-section">
       <div class="container">
@@ -830,74 +614,8 @@
       </div>
     </section>
 
-    <footer class="footer-v2">
-  <div class="menuFooter clearfix">
-    <div class="container">
-      <div class="row clearfix">
-
-        <div class="col-sm-3 col-xs-6">
-          <div class="footer-about">
-            <a class="footer-logo" href="index.html">
-              <img src="img/home/carlogo.jpg" alt="logo" class="img-responsive" />
-            </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-            <a href="">Read More ></a>
-          </div>
-        </div><!-- col-sm-3 col-xs-6 -->
-
-        <div class="col-sm-3 col-xs-6">
-          <h5>Footer Satu</h5>
-          <ul class="menuLink">
-            <li><a href="about.html">Footer 1</a></li>
-            <li><a href="campus.html">Footer 2</a></li>
-            <li><a href="stuff.html">Footer 3</a></li>
-            <li><a href="about.html">Footer 4</a></li>
-          </ul>
-        </div><!-- col-sm-3 col-xs-6 -->
-
-        <div class="col-sm-3 col-xs-6">
-          <h5>Footer 2</h5>
-          <ul class="menuLink">
-            <li><a href="course-fullwidth.html">Footer 5</a></li>
-            <li><a href="buying-steps.html">Footer 6</a></li>
-            <li><a href="photo-gallery3col.html">Footer 7</a></li>
-            <li><a href="international_students.html">Footer 8</a></li>
-          </ul>
-        </div><!-- col-sm-3 col-xs-6 -->
-
-        <div class="col-sm-3 col-xs-6">
-          <h5>Contact Us</h5>
-          <p>Menerima panggilan selama 24 Jam. </p>
-          <div class="footer-contact">
-            <ul>
-            <li> <i class="fa fa-home" aria-hidden="true"></i>54640 Lemah Gempal, Bulustalan, Semarang Selatan.</li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i>089 501 969 614</li>
-            <li><a href="mailto:cs@sewamobil.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@gorentcar.com</a></li>
-            </ul>
-          </div>
-        </div><!-- col-sm-3 col-xs-6 -->
-
-      </div><!-- row clearfix -->
-    </div><!-- container -->
-  </div><!-- menuFooter -->
-
-  <div class="footer clearfix">
-    <div class="container">
-      <div class="footer-bottom">
-        <div class="row clearfix">
-          <div class="col-sm-6 col-xs-12 copyRight">
-            <p>© 2018 Copyright Royal College Bootstrap Template by <a href="http://www.iamabdus.com">Abdus</a></p>
-          </div><!-- col-sm-6 col-xs-12 -->
-          <div class="col-sm-6 col-xs-12 privacy_policy">
-            <a href="contact-us.html">Site Map </a>
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="privacy-policy.html">Trademarks and Copyright</a>
-          </div><!-- col-sm-6 col-xs-12 -->
-        </div><!-- row clearfix -->
-      </div>
-    </div><!-- container -->
-  </div><!-- footer -->
-</footer>
+    <!-- FOOTER -->
+    <?php $this->load->view("admin/_partials/footer1.php") ?>
 
 </div>
 
@@ -949,7 +667,7 @@
         </div>
       </div>
       <div class="panel-footer">
-        <p>Allready have an account? <a href="#">Log in</a></p>
+        <p>All ready have an account? <a href="#">Log in</a></p>
       </div>
     </div>
   </div>
@@ -999,59 +717,8 @@
   </div>
 </div>
 </div>
-
-<!-- JQUERY SCRIPTS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="plugins/jquery/jquery-1.11.1.min.js"></script>
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="plugins/flexslider/jquery.flexslider.js"></script>
-<script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script src="plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
-<script src="plugins/pop-up/jquery.magnific-popup.js"></script>
-<script src="plugins/animation/waypoints.min.js"></script>
-<script src="plugins/count-up/jquery.counterup.js"></script>
-<script src="plugins/animation/wow.min.js"></script>
-<script src="plugins/animation/moment.min.js"></script>
-<script src="plugins/calender/fullcalendar.min.js"></script>
-<script src="plugins/owl-carousel/owl.carousel.js"></script>
-<script src="plugins/timer/jquery.syotimer.js"></script>
-<script src="plugins/smoothscroll/SmoothScroll.js"></script>
-<script src="js/custom.js"></script>
-<script>
-$(window).load(function(){
-$('.version2 ').each(function(){
-  var header_area = $('.header-v2');
-  var main_area = header_area.children('.header');
-
-  var logo = main_area.find('.navbar-header');
-  var navigation = main_area.find('.navbar-collapse');
-  var original = {
-    nav_top: navigation.css('margin-top')
-  };
-
-  $(window).scroll(function(){
-    if( main_area.hasClass('bb-fixed-header') && ($(this).scrollTop() === 0 )){
-      main_area.removeClass('bb-fixed-header').appendTo(header_area);
-      navigation.animate({'margin-top': original.nav_top}, {duration: 300, queue: false, complete: function(){
-        header_area.css('height', 'auto');
-      }});
-    }else if( !main_area.hasClass('bb-fixed-header') && $(this).width() > 250 &&
-      $(this).scrollTop() > header_area.offset().top + header_area.height() - parseInt($('html').css('margin-top'),10) ){
-      header_area.css('height', header_area.height());
-      main_area.css({'opacity': '0'}).addClass('bb-fixed-header');
-      main_area.appendTo($('body')).animate({'opacity': 1});
-
-      navigation.css({'margin-top': '0px'});
-    }
-  });
-});
-
-$(window).trigger('resize');
-$(window).trigger('scroll');
-});
-</script>
+<!-- js -->
+<?php $this->load->view("admin/_partials/js.php") ?>
 </body>
 </html>
 

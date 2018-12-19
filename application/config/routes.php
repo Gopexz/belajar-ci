@@ -55,4 +55,4 @@ $route['translate_uri_dashes'] = FALSE;
 $route['abouta'] = 'welcome/abouta';
 $route['content'] = 'welcome/content';
 $route['admin'] = 'admin/overview';
-$route['daftar'] = 'welcome/Daftar';
+$route['daftarmobil'] = 'welcome/daftarmobil';
