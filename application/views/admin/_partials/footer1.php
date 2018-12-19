@@ -58,12 +58,12 @@
       <div class="footer-bottom">
         <div class="row clearfix">
           <div class="col-sm-6 col-xs-12 copyRight">
-            <p>© 2018 Copyright Royal College Bootstrap Template by <a href="http://www.iamabdus.com">Abdus</a></p>
+            <p>© 2018 Copyright Created by <a href="https://github.com/Gopexz/belajar-ci">Gopexz</a></p>
           </div><!-- col-sm-6 col-xs-12 -->
           <div class="col-sm-6 col-xs-12 privacy_policy">
-            <a href="contact-us.html">Site Map </a>
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="privacy-policy.html">Trademarks and Copyright</a>
+            <a href="#">Site Map </a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Trademarks and Copyright</a>
           </div><!-- col-sm-6 col-xs-12 -->
         </div><!-- row clearfix -->
       </div>

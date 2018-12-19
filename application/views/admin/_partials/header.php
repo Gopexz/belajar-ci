@@ -1,3 +1,4 @@
+<?php $this->load->view("admin/_partials/modal.php") ?>
 <header class="header-wrapper header-v2">
       <div class="topbar clearfix">
         <div class="container">
@@ -68,34 +69,34 @@
                             <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DKI Jakarta</a>
                             <ul class="dropdown-menu">
-                              <li><a href="#">Jakarta Pusat</a></li>
-                              <li><a href="#">Jakarta Selatan</a></li>
-                              <li><a href="#">Jakarta Timur</a></li>
-                              <li><a href="#">Jakarta Barat</a></li>
-                              <li><a href="#">Jakarta Utara</a></li>
+                              <li><a href='#mjakartapusat' data-toggle="modal">Jakarta Pusat</a></li>
+                              <li><a href='#mjakartaselatan' data-toggle="modal">Jakarta Selatan</a></li>
+                              <li><a href='#mjakartatimur' data-toggle="modal">Jakarta Timur</a></li>
+                              <li><a href='#mjakartabarat' data-toggle="modal">Jakarta Barat</a></li>
+                              <li><a href='#mjakartautara' data-toggle="modal">Jakarta Utara</a></li>
                             </ul>
                           </li>
                           <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jawa Tengah</a>
                             <ul class="dropdown-menu">
-                              <li><a href="#">Semarang</a></li>
-                              <li><a href="#">Kendal</a></li>
+                              <li><a href='#msemarang' data-toggle="modal">Semarang</a></li>
+                              <li><a href='#mkendal' data-toggle="modal">Kendal</a></li>
                             </ul>
                           </li>
                           <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jawa Barat</a>
                             <ul class="dropdown-menu">
-                              <li><a href="#">Bandung</a></li>
-                              <li><a href="#">Cirebon</a></li>
+                              <li><a href='#mbandung' data-toggle="modal">Bandung</a></li>
+                              <li><a href='#mcirebon' data-toggle="modal">Cirebon</a></li>
                             </ul>
                           </li>
-                          <li><a href="campus.html">Banten</a></li>
-                          <li><a href="stuff.html">Bali</a></li>
-                          <li><a href="international_students.html">Sulawesi Tengah</a></li>
-                          <li><a href="contact-us.html">Daerah Istimewa Jogjakarta</a></li>
-                          <li><a href="privacy-policy.html">Kalimantan Tengah</a></li>
-                          <li><a href="404-error.html">Sumatra Utara</a></li>
-                          <li><a href="coming-soon-dark.html" target="_blank">Papua</a></li>
+                          <li><a href='#mbanten' data-toggle="modal">Banten</a></li>
+                          <li><a href='#mbali' data-toggle="modal">Bali</a></li>
+                          <li><a href='#sulteng' data-toggle="modal">Sulawesi Tengah</a></li>
+                          <li><a href='#diy' data-toggle="modal">Daerah Istimewa Yogyakarta</a></li>
+                          <li><a href='#kalteng' data-toggle="modal">Kalimantan Tengah</a></li>
+                          <li><a href='#msumut' data-toggle="modal">Sumatra Utara</a></li>
+                          <li><a href='#mpapua' data-toggle="modal">Papua</a></li>
                         </ul>
                       </li>
                       <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us</a></li>
