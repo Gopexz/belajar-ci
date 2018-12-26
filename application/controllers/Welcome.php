@@ -31,4 +31,10 @@ class Welcome extends CI_Controller {
 	public function daftarmobil(){
 		$this->load->view('daftar_mobil.php');
 	}
+	public function toyota(){
+		$this->load->view('toyota.php');
+	}
+	public function honda(){
+		$this->load->view('honda.php');
+	}
 }

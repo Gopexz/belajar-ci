@@ -41,7 +41,7 @@
   <div class="main_wrapper">
 
     <!-- HEADER -->
-    <?php $this->load->view("admin/_partials/header.php") ?>
+    <?php $this->load->view("admin/_partials/header.php")?>
 
 
     <!-- BANNER -->

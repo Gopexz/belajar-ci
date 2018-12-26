@@ -19,7 +19,7 @@
             <li><a href="#">Abdul Azis Fikri</a></li>
             <li><a href="#">Udin</a></li>
             <li><a href="#">Alin</a></li>
-            <li><a href="#">Atha</a></li>
+            <li><a href="#">Nur Atha Oktigalas</a></li>
             <li><a href="#">Naufal</a></li>
             <li><a href="#">Fairuz</a></li>
           </ul>
@@ -31,7 +31,7 @@
             <li><a href="#">A11.2016.09883</a></li>
             <li><a href="#">A11.2016.09</a></li>
             <li><a href="#">A11.2016.09</a></li>
-            <li><a href="#">A11.2016.09</a></li>
+            <li><a href="#">A11.2016.09885</a></li>
             <li><a href="#">A11.2016.09</a></li>
             <li><a href="#">A11.2016.09</a></li>
           </ul>
