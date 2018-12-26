@@ -56,3 +56,5 @@ $route['abouta'] = 'welcome/abouta';
 $route['content'] = 'welcome/content';
 $route['admin'] = 'admin/overview';
 $route['daftarmobil'] = 'welcome/daftarmobil';
+$route['toyota'] = 'welcome/toyota';
+$route['honda'] = 'welcome/honda';

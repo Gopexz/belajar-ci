@@ -49,7 +49,7 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="nav navbar-nav navbar-right">
-                      <li><a href="index.html">Home</a></li>
+                      <li><a href="<?php echo base_url('')?>">Home</a></li>
                       <li class=" dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Daftar Mobil</a>
                         <ul class="dropdown-menu">
