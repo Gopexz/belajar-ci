@@ -4,7 +4,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Dashboard</title>
+    <title>Input Data</title>
 
     <!-- Bootstrap core CSS-->
     <link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">

@@ -76,7 +76,7 @@
                   </div>
                   <div class="caption-bottom">
                   <div class="price">
-                      <span class="offer-price">Pesan</span>
+                  <span> <a href="admin/products/add" class="offer-price">Pesan</a></span>
                   </div>
                   </div>
                 </div>
@@ -108,7 +108,7 @@
                   </div>
                   <div class="caption-bottom">
                   <div class="price">
-                      <span class="offer-price">Pesan</span>
+                  <span> <a href="admin/products/add" class="offer-price">Pesan</a></span>
                   </div>
                   </div>
                 </div>
@@ -118,7 +118,7 @@
             <div class="col-md-3 col-sm-6 col-xs-6">
               <div class="imageBox">
                 <div class="productImage clearfix">
-                  <a href="single-course-right-sidebar.html"><img src="img/home/course/honda/car3.jpg" alt="Image"class="img-rounded" width="460" height="190"></a>
+                  <a href="single-course-right-sidebar.html"><img src="img/home/course/honda/car3.png" alt="Image"class="img-rounded" width="460" height="190"></a>
                   <span class="sticker"><i class="fa fa-clock-o" aria-hidden="true"></i>12 Hours</span>
                 </div>
                 <div class="productCaption clearfix">
@@ -140,7 +140,7 @@
                   </div>
                   <div class="caption-bottom">
                   <div class="price">
-                      <span class="offer-price">Pesan</span>
+                  <span> <a href="admin/products/add" class="offer-price">Pesan</a></span>
                   </div>
                   </div>
                 </div>
@@ -172,7 +172,7 @@
                   </div>
                   <div class="caption-bottom">
                   <div class="price">
-                      <span class="offer-price">Pesan</span>
+                  <span> <a href="admin/products/add" class="offer-price">Pesan</a></span>
                   </div>
                   </div>
                 </div>
@@ -182,7 +182,7 @@
             <div class="col-md-3 col-sm-6 col-xs-6">
               <div class="imageBox">
                 <div class="productImage clearfix">
-                  <a href="single-course-right-sidebar.html"><img src="img/home/course/honda/car5.jpg" alt="Image"class="img-rounded" width="460" height="190"></a>
+                  <a href="single-course-right-sidebar.html"><img src="img/home/course/honda/car5.png" alt="Image"class="img-rounded" width="460" height="190"></a>
                   <span class="sticker"><i class="fa fa-clock-o" aria-hidden="true"></i>6 Hours</span>
                 </div>
                 <div class="productCaption clearfix">
@@ -204,7 +204,7 @@
                   </div>
                   <div class="caption-bottom">
                   <div class="price">
-                      <span class="offer-price">Pesan</span>
+                  <span> <a href="admin/products/add" class="offer-price">Pesan</a></span>
                   </div>
                   </div>
                 </div>
@@ -214,7 +214,7 @@
             <div class="col-md-3 col-sm-6 col-xs-6">
               <div class="imageBox">
                 <div class="productImage clearfix">
-                  <a href="single-course-right-sidebar.html"><img src="img/home/course/honda/car6.jpg" alt="Image" class="img-rounded" width="460" height="190"></a>
+                  <a href="single-course-right-sidebar.html"><img src="img/home/course/honda/car6.png" alt="Image" class="img-rounded" width="460" height="190"></a>
                   <span class="sticker"><i class="fa fa-clock-o" aria-hidden="true"></i>12 Hours</span>
                 </div>
                 <div class="productCaption clearfix">
@@ -236,7 +236,7 @@
                   </div>
                   <div class="caption-bottom">
                   <div class="price">
-                      <span class="offer-price">Pesan</span>
+                  <span> <a href="admin/products/add" class="offer-price">Pesan</a></span>
                   </div>
                   </div>
                 </div>
@@ -268,7 +268,7 @@
                   </div>
                   <div class="caption-bottom">
                   <div class="price">
-                      <span class="offer-price">Pesan</span>
+                  <span> <a href="admin/products/add" class="offer-price">Pesan</a></span>
                   </div>
                   </div>
                 </div>
@@ -300,7 +300,7 @@
                   </div>
                   <div class="caption-bottom">
                   <div class="price">
-                      <span class="offer-price">Pesan</span>
+                  <span> <a href="admin/products/add" class="offer-price">Pesan</a></span>
                   </div>
                   </div>
                 </div>

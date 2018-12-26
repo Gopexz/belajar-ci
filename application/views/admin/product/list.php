@@ -30,11 +30,11 @@
 								<thead>
 									<tr>
 										<th>No</th>
-										<th>ID</th>
+										<th>ID Mobil</th>
 										<th>Name</th>
-										<th>Price</th>
+										<th>No. Hp</th>
 										<th>Photo</th>
-										<th>Description</th>
+										<th>Lokasi Jemput</th>
 										<th>Action</th>
 									</tr>
 								</thead>

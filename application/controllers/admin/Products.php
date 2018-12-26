@@ -23,7 +23,7 @@ class Products extends CI_Controller
 
         if($validation->run()){
             $product->save();
-            $this->session->set_flashdata('success', 'Berhasil disimpan');
+            $this->session->set_flashdata('success', 'Berhasil Tersimpan. Admin akan memvalidasi data anda dan akan mengirimkan konfirmasi melalui nomer yang diinputkan. Terima Kasih');
         }
         $this->load->view("admin/product/new_form");
     }
