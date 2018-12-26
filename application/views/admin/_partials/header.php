@@ -3,9 +3,9 @@
       <div class="topbar clearfix">
         <div class="container">
           <ul class="topbar-left">
-            <li class="phoneNo"><i class="fa fa-phone"></i>0123 45678910</li>
+            <li class="phoneNo"><i class="fa fa-phone"></i>+62 895 0196 9614</li>
             <li class="email-id hidden-xs hidden-sm"><i class="fa fa-envelope"></i>
-              <a href="mailto:cs@yourdomain.com">info@yourdomain.com</a>
+              <a href="mailto:cs@yourdomain.com">info@rentalmobil.com</a>
             </li>
           </ul>
           <ul class="topbar-right">
@@ -53,14 +53,14 @@
                       <li class=" dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Daftar Mobil</a>
                         <ul class="dropdown-menu">
-                        <li><a href="about.html">Honda</a></li>
-                        <li><a href="about.html">Toyota</a></li>
-                        <li><a href="about.html">Suzuki</a></li>
-                        <li><a href="about.html">Daihatsu</a></li>
-                        <li><a href="about.html">Nissan</a></li>
-                        <li><a href="about.html">KIA</a></li>
-                        <li><a href="about.html">BMW</a></li>
-                        <li><a href="about.html">Isuzu</a></li>
+                        <li><a href="honda">Honda</a></li>
+                        <li><a href="toyota">Toyota</a></li>
+                        <li><a href="suzuki">Suzuki</a></li>
+                        <li><a href="daihatsu">Daihatsu</a></li>
+                        <li><a href="nissan">Nissan</a></li>
+                        <li><a href="kia">KIA</a></li>
+                        <li><a href="bmw">BMW</a></li>
+                        <li><a href="isuzu">Isuzu</a></li>
                         </ul>
                       </li>
                       <li class=" dropdown">
